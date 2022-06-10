@@ -1,0 +1,16 @@
+train: E:\window\tiaoshi\pycharm\yoloV5\yolov5-master/VOCData/dataSet_path/train.txt
+val: E:\window\tiaoshi\pycharm\yoloV5\yolov5-master/VOCData/dataSet_path/val.txt
+# four:four_fingers
+# bu:  hand_with_fingers_splayed
+# one: index_pointing_up
+# xm:  little_finger
+# ok:  ok_hand
+# st:  raised_fist
+# jl:  raised_hand
+# tan: sign_of_the_horns
+# 3:   three
+# zan: thumbup
+# jd:  victory_hand
+nc: 11 # number of classes
+names: ['four_fingers', 'hand_with_fingers_splayed', 'index_pointing_up','little_finger',
+        'ok_hand', 'raised_fist','raised_hand','sign_of_the_horns','three','thumbup','victory_hand']  # class names
